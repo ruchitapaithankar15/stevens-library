@@ -53,5 +53,8 @@ const Wrap = styled.div`
         rgb(0 0 0 / 72%) 0px 16px 10px -10px;
         transform: scale(1.05);
         border-color: rgba(169,45,61,0.8);
+
+
+        
     }
 `
