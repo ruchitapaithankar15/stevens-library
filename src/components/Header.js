@@ -49,6 +49,8 @@ background: #a32638;
 display: flex;
 align-item: center;
 padding: 0 36px;
+overflow-x: hidden;
+grid-gap:25px; //can change this too
 
 `
 
@@ -63,6 +65,7 @@ const NavMenu = styled.div`
     flex:1;
     margin-left:25px;
     align-items: center;
+    grid-gap:50px;  //change this to reduce the space between options after putting the logo
     a{
         display: flex;
         align-items: center;
@@ -77,6 +80,7 @@ const NavMenu = styled.div`
           letter-spacing: 1.42px;
           margin-right: 10px
           position: relative;
+
 
           &:after{
             content: "";
