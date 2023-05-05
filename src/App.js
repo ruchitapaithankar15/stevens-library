@@ -10,6 +10,7 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import Calder from './components/Calder';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path='/detail' element={<Detail/>} />
         <Route path='/' element={<Home/>} />
         <Route path='/about' element={<About/>} />
+        <Route path='/calder' element={<Calder/>} />
       </Routes>
       </Router>
     </div>

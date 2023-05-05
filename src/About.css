@@ -5,13 +5,13 @@
     margin-right: auto;
     max-width: 2000px;
 }
-/* 
+
 .about_column{
     display: flex;
     z-index: 1;
     margin-left: 5px;
     margin-right: 5px;
-} */
+}
 
 .about__image{
     width:100%;
