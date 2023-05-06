@@ -30,7 +30,6 @@ function ImgSlider() {
         <Wrap>
         <img src="/images/slider-img2.png"/>
         </Wrap>
-
     </Carousel>
   )
 }
@@ -40,7 +39,7 @@ export default ImgSlider
 
 const Carousel = styled(Slider)`
     // margin-top:20px;
-
+    height: 200px
     ul li button{
         &:before{
             font-size: 10px;

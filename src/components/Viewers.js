@@ -9,17 +9,17 @@ function Viewers() {
            <img src="/images/floor1.png"/>
        </Wrap>
        <Wrap>
-           <img src="/images/viewers-pixar.png"/>
+           <img src="/images/floor2.png"/>
        </Wrap>
        <Wrap>
-           <img src="/images/viewers-marvel.png"/>
+           <img src="/images/floor3.png"/>
        </Wrap>
-       <Wrap>
+       {/* <Wrap>
            <img src="/images/viewers-starwars.png"/>
        </Wrap>
        <Wrap>
            <img src="/images/viewers-national.png"/>
-       </Wrap>
+       </Wrap> */}
    </Container>
   )
 }
@@ -27,15 +27,19 @@ function Viewers() {
 export default Viewers
 
 const Container = styled.div`
+    // padding-left: 100px;
     margin-top: 30px;
     display: grid;
-    padding: 30px 0px 26px;
+    // padding: 30px 0px 26px;
+    padding-left: 75px; 
+    padding-top: 20px;
     grid-gap:25px;
-    grid-template-columns: repeat(5, minmax(0, 1fr)); //change here if you need 3 boxes
+    grid-template-columns: repeat(3, minmax(0, 1fr)); //change here if you need 3 boxes
 
 `
 
 const Wrap = styled.div`
+    width: 70%;
     border-radius: 10px;
     cursor: pointer;
     border: 3px solid rgba(169,45,61,0.1);
@@ -46,6 +50,7 @@ const Wrap = styled.div`
         width: 100%;
         height: 100%;
         object-fit: cover;
+        border-radius: 10px;
 
     }
     &:hover{
@@ -53,8 +58,6 @@ const Wrap = styled.div`
         rgb(0 0 0 / 72%) 0px 16px 10px -10px;
         transform: scale(1.05);
         border-color: rgba(169,45,61,0.8);
-
-
         
     }
 `
