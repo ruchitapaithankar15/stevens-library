@@ -1,18 +1,18 @@
 import React from 'react'
 import styled from 'styled-components'
+import Blog from "../app/json files/data.json"
+import {useParams} from 'react-router-dom'
+
 function Calder() {
+  const{id} = useParams();
   return (
     <Container>
       <CTA>
-        <Title>The Stevens Mobile (first floor, Great Hall area)</Title>
+        <Title>{ Blog[id].Name }</Title>
         <Container2>
-        <CTAPictureOne src='/images/Mobile Calder Great Hall.jpg'/>
+        <CTAPictureOne src={Blog[id].Image}/>
         <Description>
-        <Location>second floor, near the restrooms and library training room 204</Location>
-        Alexander Calder graduated from Stevens in 1919 with a degree in Mechanical Engineering.  
-        He went on to become a world-renowned sculptor, and his art work is found all over the world.  
-        Calder donated “The Stevens Mobile” to Stevens in 1970 to commemorate the university’s one-hundredth anniversary, 
-        and the Library has been its home ever since.
+        {Blog[id].Description}
         </Description>
         </Container2>
       </CTA>
@@ -40,7 +40,7 @@ const Container = styled.div`
   left: 0;
   right:0;
   opacity: 0.7;
-  // background-image: url("/images/history-bg.png");
+  background-image: url("/images/history-bg.png");
   opacity: 0.2;
   z-index: -1;
 }
@@ -97,11 +97,4 @@ line-height: 1.5;
 
 const Container2 =styled.div`
   display: flex;
-`
-
-
-const Location = styled.h3`
-
-
-
 `

@@ -26,7 +26,7 @@ function App() {
         <Route path='/detail' element={<Detail/>} />
         <Route path='/' element={<Home/>} />
         <Route path='/about' element={<About/>} />
-        <Route path='/calder' element={<Calder/>} />
+        <Route path='/calder/:id' element={<Calder/>} />
         <Route path='/floorview' element={<FloorView/>}/>
         <Route path='/perfloor' element={<PerFloor/>}/>
         <Route path='/table' element={<Table/>}/>

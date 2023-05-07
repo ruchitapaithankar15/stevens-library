@@ -26,11 +26,6 @@ function Header() {
                     <span>HISTORY</span>
                 </a>
                 </Link>
-
-                <a>
-                    <img src='/images/vase.png'/>
-                    <span>ARTIFACTS</span>
-                </a>
                 <Link to='/floorview' style={{ textDecoration: 'none' }}>
                 <a>
                     <img src='/images/layout.png'/>

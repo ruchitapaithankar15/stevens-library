@@ -6,13 +6,16 @@ import '../Table.css'
 import { useEffect, useState } from "react";
 function Table() {
   return (
-    <Container style={{display: 'flex',  justifyContent:'center', color: 'black'}}>
-    <div style= {{padding:'50px'}}>
-      <tbody className='content-table'>
+    <Container>
+    <div className='container'>
+      <table>
+        <thead>
         <tr>
           <th>ID</th>
           <th>Title</th>
         </tr>
+        </thead>
+        <tbody>
         {Blog.map((item, index) => (
           <tr key={index}>
             <td>{item.ID}</td>
@@ -23,7 +26,8 @@ function Table() {
             <td>{item.Floor}</td>
           </tr>
         ))}
-      </tbody>
+        </tbody>
+      </table>
     </div>
     </Container>
   )
@@ -34,10 +38,6 @@ export default Table
 
 
 const Container = styled.div`
-    h4{
-        font-size: 20px;
-        letter-spacing: 1.8 px;
-        color: black;
-    }
-    color: black
+color: black;
+   
 `

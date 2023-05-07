@@ -8,39 +8,59 @@ function PerFloor() {
   return (
     <Container>
       <h4>
+
       </h4>
       <Content>
-        <Link to='/calder' style={{ textDecoration: 'none' }}>
+        <Link to='/calder/0' style={{ textDecoration: 'none' }}>
         <Wrap>
             <img src='/images/stevens-mobile.png'/>
         </Wrap>
         </Link>
+        <Link to='/calder/1' style={{ textDecoration: 'none' }}>
         <Wrap>
         <img src='/images/library-history-exhibit.png'/>
         </Wrap>
+        </Link>
+        <Link to='/calder/2' style={{ textDecoration: 'none' }}>
         <Wrap>
         <img src='/images/piano.png'/>
         </Wrap>
+        </Link>
+        <Link to='/calder/3' style={{ textDecoration: 'none' }}>
         <Wrap>
         <img src='/images/mary-stuart-stevens-room.png'/>
         </Wrap>
+        </Link>
+        <Link to='/calder/4' style={{ textDecoration: 'none' }}>
+        <Wrap>
+        <img src='/images/100-hoboken-first.png'/>
+        </Wrap>
+        </Link>
+        <Link to='/calder/5' style={{ textDecoration: 'none' }}>
+        <Wrap>
+        <img src='/images/lieb-exhibit.png'/>
+        </Wrap>
+        </Link>
+        <Link to='/calder/6' style={{ textDecoration: 'none' }}>
+        <Wrap>
+        <img src='/images/calder-corner.png'/>
+        </Wrap>
+        </Link>
+        <Link to='/calder/7' style={{ textDecoration: 'none' }}>
+        <Wrap>
+        <img src='/images/mechanical-models.png'/>
+        </Wrap>
+        </Link>
       </Content>
       <h4>
 
       </h4>
       <Content>
-      <Wrap>
-        <img src='/images/lieb-exhibit.png'/>
-        </Wrap>
-        <Wrap>
-        <img src='/images/calder-corner.png'/>
-        </Wrap>
-        <Wrap>
-        <img src='/images/100-hoboken-first.png'/>
-        </Wrap>
-        <Wrap>
-        <img src='/images/mechanical-models.png'/>
-        </Wrap>
+      
+      </Content>
+
+      <Content>
+
       </Content>
     </Container>
   )
