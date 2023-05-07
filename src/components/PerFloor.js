@@ -7,37 +7,7 @@ import DropdownButton from 'react-bootstrap/DropdownButton';
 function PerFloor() {
   return (
     <Container>
-        {/* <Content>
-    <Dropdown>
-      <Dropdown.Toggle variant="success" id="dropdown-basic">
-        First Floor
-      </Dropdown.Toggle>
-
-      <Dropdown.Menu>
-        <Dropdown.Item href="#/action-1">
-        <Link to='/calder' style={{ textDecoration: 'none' }}>
-        <Wrap>
-            <img src='/images/stevens-mobile.png'/>
-        </Wrap>
-        </Link>
-        </Dropdown.Item>
-        <Dropdown.Item href="#/action-2">
-        <Link to='/calder' style={{ textDecoration: 'none' }}>
-        <Wrap>
-            <img src='/images/stevens-mobile.png'/>
-        </Wrap>
-        </Link>
-        </Dropdown.Item>
-        <Dropdown.Item href="#/action-3"><Link to='/calder' style={{ textDecoration: 'none' }}>
-        <Wrap>
-            <img src='/images/stevens-mobile.png'/>
-        </Wrap>
-        </Link></Dropdown.Item>
-      </Dropdown.Menu>
-    </Dropdown>
-    </Content> */}
       <h4>
-        First Floor
       </h4>
       <Content>
         <Link to='/calder' style={{ textDecoration: 'none' }}>
@@ -59,7 +29,7 @@ function PerFloor() {
         </Wrap>
       </Content>
       <h4>
-        Second Floor
+
       </h4>
       <Content>
       <Wrap>
@@ -96,7 +66,7 @@ const Content = styled.div`
     padding-right: 10px;
    display: grid;
    grid-gap:25px;
-   grid-template-columns: repeat(5, minmax(0,1fr));
+   grid-template-columns: repeat(4, minmax(0,1fr));
 
 `
 

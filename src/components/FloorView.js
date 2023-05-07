@@ -1,7 +1,13 @@
 import React from 'react'
 import styled from 'styled-components'
-import ImgSlider1 from './ImgSlider1';
+import SimpleImageSlider from "react-simple-image-slider";
 
+const images = [
+  { url: "/images/floorplan1.jpg" },
+  { url: "/images/floorplan2.jpg"},
+  { url: "/images/floorplan3.jpg" },
+
+];
 
 function FloorView() {
     let settings = {
@@ -15,8 +21,21 @@ function FloorView() {
   return (
 
     <Container>
-        <ImgSlider1/>
+        <h2 style={{display: 'flex',  justifyContent:'center', color: 'black'}}>Floor Plan</h2>
+        <div style={{display: 'flex',  justifyContent:'center', alignItems:'center'}}>  
+      <SimpleImageSlider
+        width={896}
+        height={504}
+        images={images}
+        showBullets={false}
+        showNavs={true}
+        navStyle={2}
+        infinite={true}
+        color={'blue'}
+      />
+    </div>
     </Container>
+
   )
 }
 
@@ -27,23 +46,4 @@ const Container = styled.main`
     padding: 0 calc(3.5vw + 5px);
     position: relative;
     overflow-x: hidden;
-`
-
-const Wrap = styled.div`
-    cursor: pointer;
-    img{
-        border: 4px solid transparent;
-        border-radius: 4px;
-        object-fit: scale-down;
-        object-position: center;
-        width:70%;
-        height:70%;
-        box-shadow: rgb(0 0 0 / 69%) 0px 26px 30px - 10px,
-        rgb(0 0 0 / 73%) 0px 16px 10px -10px;
-        transition-duration: 300ms;
-    }
-    &:hover{
-        border: 4px solid rgba(249, 249, 249, 0.8);
-    }
-
 `
