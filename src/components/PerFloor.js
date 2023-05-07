@@ -24,9 +24,6 @@ function PerFloor() {
         <Wrap>
         <img src='/images/mary-stuart-stevens-room.png'/>
         </Wrap>
-        <Wrap>
-        <img src='/images/100-hoboken-first.png'/>
-        </Wrap>
       </Content>
       <h4>
 
@@ -38,12 +35,10 @@ function PerFloor() {
         <Wrap>
         <img src='/images/calder-corner.png'/>
         </Wrap>
-      </Content>
-      <h4>
-        Third Floor
-      </h4>
-      <Content>
-      <Wrap>
+        <Wrap>
+        <img src='/images/100-hoboken-first.png'/>
+        </Wrap>
+        <Wrap>
         <img src='/images/mechanical-models.png'/>
         </Wrap>
       </Content>

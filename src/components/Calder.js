@@ -8,6 +8,7 @@ function Calder() {
         <Container2>
         <CTAPictureOne src='/images/Mobile Calder Great Hall.jpg'/>
         <Description>
+        <Location>second floor, near the restrooms and library training room 204</Location>
         Alexander Calder graduated from Stevens in 1919 with a degree in Mechanical Engineering.  
         He went on to become a world-renowned sculptor, and his art work is found all over the world.  
         Calder donated “The Stevens Mobile” to Stevens in 1970 to commemorate the university’s one-hundredth anniversary, 
@@ -39,7 +40,7 @@ const Container = styled.div`
   left: 0;
   right:0;
   opacity: 0.7;
-  background-image: url("/images/history-bg.png");
+  // background-image: url("/images/history-bg.png");
   opacity: 0.2;
   z-index: -1;
 }
@@ -96,4 +97,11 @@ line-height: 1.5;
 
 const Container2 =styled.div`
   display: flex;
+`
+
+
+const Location = styled.h3`
+
+
+
 `

@@ -15,6 +15,7 @@ import FloorView from './components/FloorView';
 import PerFloor from './components/PerFloor';
 import Table from './components/Table';
 import Base from './components/Base';
+import DisplayInfo from './components/DisplayInfo';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
         <Route path='/floorview' element={<FloorView/>}/>
         <Route path='/perfloor' element={<PerFloor/>}/>
         <Route path='/table' element={<Table/>}/>
+        <Route path='/displayInfo' element={<DisplayInfo/>}/>
       </Routes>
       {/* <Base/> */}
       </Router>
