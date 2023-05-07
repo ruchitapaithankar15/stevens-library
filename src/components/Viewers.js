@@ -6,7 +6,7 @@ function Viewers() {
   return (
    <Container>
        <Wrap>
-           <img src="/images/floor1.png"/>
+           <img src="/images/floor-1.png"/>
        </Wrap>
        <Wrap>
            <img src="/images/floor2.png"/>
