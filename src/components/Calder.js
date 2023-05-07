@@ -62,7 +62,6 @@ const Background = styled.div`
         height: 100%;
         object-fit: cover;
     }
-
 `
 const ImageTitle = styled.div`
     height: 30vh;

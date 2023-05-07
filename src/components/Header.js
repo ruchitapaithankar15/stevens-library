@@ -11,9 +11,9 @@ function Header() {
         {/* <Container>
         <h3>Samuel C. </h3>
         <h3>Williams Library</h3>
-
         </Container> */}
         <NavMenu>
+            <LogoImg src='/images/SCW.png'/>
             <Link to='/' style={{ textDecoration: 'none' }}>
             <a>
                     <img src='/images/home.png'/>
@@ -55,12 +55,13 @@ align-item: center;
 padding: 0 36px;
 overflow-x: hidden;
 grid-gap:25px; //can change this too
+position: sticky;
 
 `
 
 const Logo = styled.img`
     width: 80px;
-    margin-right: 50px;
+    margin-right: 20px;
 `
 
 
@@ -90,3 +91,9 @@ const NavMenu = styled.div`
 `
 
 
+const LogoImg = styled.img`
+
+    width: 150px;
+    margin-right: 50px;
+
+`

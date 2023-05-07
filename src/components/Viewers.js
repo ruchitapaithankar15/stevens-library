@@ -28,6 +28,7 @@ const Container = styled.div`
     // padding: 30px 0px 26px;
     padding-left: 90px; 
     padding-top: 20px;
+    padding-bottom: 30px;
     grid-gap:25px;
     grid-template-columns: repeat(3, minmax(0, 1fr)); //change here if you need 3 boxes
 
