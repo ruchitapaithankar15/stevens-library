@@ -1,20 +1,25 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 
 function Header() {
   return (
     <Nav>
+        <Link to='/' style={{ textDecoration: 'none' }}>
         <Logo src="/images/stevenslogo.jpeg"/>
+        </Link>
         {/* <Container>
         <h3>Samuel C. </h3>
         <h3>Williams Library</h3>
 
         </Container> */}
         <NavMenu>
-                <a>
+            <Link to='/' style={{ textDecoration: 'none' }}>
+            <a>
                     <img src='/images/home.png'/>
                     <span>HOME</span>
                 </a>
+            </Link>
                 <a>
                     <img src='/images/history.png'/>
                     <span>HISTORY</span>
@@ -29,11 +34,12 @@ function Header() {
                     <img src='/images/layout.png'/>
                     <span>FLOORPLAN</span>
                 </a>
-
+                <Link to='/about' style={{ textDecoration: 'none' }}>
                 <a>
                     <img src='/images/group.png'/>
                     <span>ABOUT</span>
                 </a>
+                </Link>
 
 
         </NavMenu>
@@ -80,18 +86,7 @@ const NavMenu = styled.div`
           letter-spacing: 1.42px;
           margin-right: 10px
           position: relative;
-
-
-          &:after{
-            content: "";
-            height: 2px;
-            background: white;
-            position: absolute;
-
-            left:0;
-            right:0;
-            bottom: -12px;
-        }
+          color: white; 
         }
     }
 `
