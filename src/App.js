@@ -13,6 +13,7 @@ import {
 import Calder from './components/Calder';
 import FloorView from './components/FloorView';
 import PerFloor from './components/PerFloor';
+import Table from './components/Table';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         <Route path='/calder' element={<Calder/>} />
         <Route path='/floorview' element={<FloorView/>}/>
         <Route path='/perfloor' element={<PerFloor/>}/>
+        <Route path='/table' element={<Table/>}/>
       </Routes>
       </Router>
     </div>

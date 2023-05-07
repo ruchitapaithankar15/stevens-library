@@ -20,20 +20,23 @@ function Header() {
                     <span>HOME</span>
                 </a>
             </Link>
+            <Link to='/perfloor' style={{ textDecoration: 'none' }}>
                 <a>
                     <img src='/images/history.png'/>
                     <span>HISTORY</span>
                 </a>
+                </Link>
 
                 <a>
                     <img src='/images/vase.png'/>
                     <span>ARTIFACTS</span>
                 </a>
-
+                <Link to='/floorview' style={{ textDecoration: 'none' }}>
                 <a>
                     <img src='/images/layout.png'/>
                     <span>FLOORPLAN</span>
                 </a>
+                </Link>
                 <Link to='/about' style={{ textDecoration: 'none' }}>
                 <a>
                     <img src='/images/group.png'/>

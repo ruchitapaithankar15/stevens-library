@@ -5,6 +5,7 @@ function Calder() {
     <Container>
       <CTA>
         <Title>The Stevens Mobile (first floor, Great Hall area)</Title>
+        <Container2>
         <CTAPictureOne src='/images/Mobile Calder Great Hall.jpg'/>
         <Description>
         Alexander Calder graduated from Stevens in 1919 with a degree in Mechanical Engineering.  
@@ -12,6 +13,7 @@ function Calder() {
         Calder donated “The Stevens Mobile” to Stevens in 1970 to commemorate the university’s one-hundredth anniversary, 
         and the Library has been its home ever since.
         </Description>
+        </Container2>
       </CTA>
     </Container>
   )
@@ -77,7 +79,8 @@ const Description = styled.p`
   text-align: center;
   color: black;
   line-height: 1.5;
-
+  align-items: left;
+  padding-left; 100px;
 `
 
 
@@ -88,4 +91,9 @@ text-align: center;
 color: black;
 line-height: 1.5;
 
+`
+
+
+const Container2 =styled.div`
+  display: flex;
 `
