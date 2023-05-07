@@ -5,7 +5,7 @@
         "Floor":1,
         "Location": "first floor, Great Hall area",
         "Image": "/images/Library/Mobile Calder Great Hall.jpg", 
-        "Description": "XYZ"
+        "Description": "Alexander Calder graduated from Stevens in 1919 with a degree in Mechanical Engineering.  He went on to become a world-renowned sculptor, and his art work is found all over the world.  Calder donated “The Stevens Mobile” to Stevens in 1970 to commemorate the university’s one-hundredth anniversary, and the Library has been its home ever since.\n"
     },
  
     {
@@ -14,7 +14,7 @@
         "Floor":2,
         "Location": "second floor, near the restrooms and library training room 204",
         "Image": "/images/Library/Stabile Calder second floor.jpg", 
-        "Description": "XYZ"
+        "Description": "Calder’s stabile sculpture “Hard to Swallow” is found in the “Calder Corner” on the second floor of the Library, along with an exhibit about Calder’s experiences as a student at Stevens.  The exhibit includes Calder’s senior thesis and yearbook, photos, artifacts, and models.\n\n"
     },
   
     {
@@ -23,7 +23,7 @@
         "Floor":1,
         "Location": "first floor",
         "Image": "/images/Library/MSS Room 2.jpg",
-        "Description": "XYZ"
+        "Description": "The Mary Stuart Stevens Room celebrates the history of the founding family of Stevens Institute of Technology.  The Stevens family has a long history of invention and innovation related to steam boats, railroads, and ferry boats, with roots in America dating back to the late 1600s.\n\n\n"
     },
     {
         "ID": "4",
@@ -31,7 +31,7 @@
         "Floor":1,
         "Location": "first floor",
         "Image": "/images/Library/Piano and Mobile Great Hall.jpg",
-        "Description": "XYZ" 
+        "Description": "The Petrof concert grand piano is 9 ft. in length, features several extra keys, and was donated to the Library and dedicated in 1984.  The Library sometimes holds concerts featuring Stevens faculty, students, and special guest artists.\n\n\n\n" 
     },
     {
         "ID": "5",
@@ -39,7 +39,7 @@
         "Floor":1,
         "Location": "first floor",
         "Image": "/images/Library/100-Hoboken Firsts.jpg",
-        "Description": "XYZ" 
+        "Description": "The “100 Hoboken Firsts” exhibit panels, highlighting fascinating historical facts about Hoboken, were donated to the Library by the Hoboken Historical Museum.\n\n\n\n"
     },
     {
         "ID": "6",
@@ -47,7 +47,7 @@
         "Floor":1,
         "Location": "first floor, near Sam’s Place/Drop-In Tutoring Center",
         "Image": "/images/Library/Library exhibit first floor.jpg",
-        "Description": "XYZ" 
+        "Description": "This exhibit tells the story of the evolution of the library at Stevens, from 1870 to the present.\n\n\n\n"
     },
     {
         "ID": "7",
@@ -55,7 +55,7 @@
         "Floor":3,
         "Location": "3rd floor exhibit shelves, near iSTEM and restrooms",
         "Image": "/images/Library/Engineering models exhibit third floor.jpg",
-        "Description": "XYZ" 
+        "Description": "The models in this exhibit were used during the late 19th century and early 20th century to demonstrate mechanical engineering principles to Stevens students.\n\n\n"
     },
     {
         "ID": "8",
@@ -63,7 +63,7 @@
         "Floor":2,
         "Location": "second floor, near the restrooms and library training room 204",
         "Image": "/images/Library/Lieb exhibit second floor.jpg",
-        "Description": "XYZ" 
+        "Description": "John W. Lieb, Class of 1880, attended Stevens during an exciting time for invention.  In the 1880s he worked for the Italian Edison Company while being in the position of Chief Engineer, to set up and install the first central electric station in Europe, which was in Milan, Italy.  Lieb was fascinated by Leonardo da Vinci’s engineering know-how, and this exhibit provides history about Lieb and about the collection of books about Leonardo da Vinci donated to Stevens in the 1930s.\n\n\n" 
     }
 
 ]
