@@ -14,6 +14,7 @@ import Calder from './components/Calder';
 import FloorView from './components/FloorView';
 import PerFloor from './components/PerFloor';
 import Table from './components/Table';
+import Base from './components/Base';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
         <Route path='/perfloor' element={<PerFloor/>}/>
         <Route path='/table' element={<Table/>}/>
       </Routes>
+      {/* <Base/> */}
       </Router>
     </div>
   );

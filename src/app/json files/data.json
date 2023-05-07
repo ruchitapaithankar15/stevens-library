@@ -2,51 +2,67 @@
     {
         "ID": "1",
         "Name": "The Stevens Mobile", 
-        "Image": "/images/mechanical-models.png", 
+        "Floor":1,
+        "Location": "first floor, Great Hall area",
+        "Image": "/images/Library/Mobile Calder Great Hall.jpg", 
         "Description": "XYZ"
     },
  
     {
         "ID": "2",
-        "Name": "JSON", 
-        "Image": "/images/mechanical-models.png", 
+        "Name": "Calder Corner", 
+        "Floor":2,
+        "Location": "second floor, near the restrooms and library training room 204",
+        "Image": "/images/Library/Stabile Calder second floor.jpg", 
         "Description": "XYZ"
     },
   
     {
         "ID": "3",
-        "Name": "A", 
-        "Image": "/images/mechanical-models.png",
+        "Name": "Mary Stuart Stevens Room", 
+        "Floor":1,
+        "Location": "first floor",
+        "Image": "/images/Library/MSS Room 2.jpg",
         "Description": "XYZ"
     },
     {
         "ID": "4",
-        "Name": "AB", 
-        "Image": "/images/mechanical-models.png",
+        "Name": "Piano", 
+        "Floor":1,
+        "Location": "first floor",
+        "Image": "/images/Library/Piano and Mobile Great Hall.jpg",
         "Description": "XYZ" 
     },
     {
         "ID": "5",
-        "Name": "Asp", 
-        "Image": "/images/mechanical-models.png",
+        "Name": "100 Hoboken Firsts", 
+        "Floor":1,
+        "Location": "first floor",
+        "Image": "/images/Library/100-Hoboken Firsts.jpg",
         "Description": "XYZ" 
     },
     {
         "ID": "6",
-        "Name": "Ast", 
-        "Image": "/images/mechanical-models.png",
+        "Name": "Library History Exhibit", 
+        "Floor":1,
+        "Location": "first floor, near Sam’s Place/Drop-In Tutoring Center",
+        "Image": "/images/Library/Library exhibit first floor.jpg",
         "Description": "XYZ" 
     },
     {
         "ID": "7",
-        "Name": "Ast", 
-        "Image": "/images/mechanical-models.png",
+        "Name": "Mechanical models", 
+        "Floor":3,
+        "Location": "3rd floor exhibit shelves, near iSTEM and restrooms",
+        "Image": "/images/Library/Engineering models exhibit third floor.jpg",
         "Description": "XYZ" 
     },
     {
         "ID": "8",
-        "Name": "As", 
-        "Image": "/images/mechanical-models.png",
+        "Name": "Lieb exhibit", 
+        "Floor":2,
+        "Location": "second floor, near the restrooms and library training room 204",
+        "Image": "/images/Library/Lieb exhibit second floor.jpg",
         "Description": "XYZ" 
     }
 
