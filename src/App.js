@@ -12,6 +12,7 @@ import {
 } from "react-router-dom";
 import Calder from './components/Calder';
 import FloorView from './components/FloorView';
+import PerFloor from './components/PerFloor';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Route path='/about' element={<About/>} />
         <Route path='/calder' element={<Calder/>} />
         <Route path='/floorview' element={<FloorView/>}/>
+        <Route path='/perfloor' element={<PerFloor/>}/>
       </Routes>
       </Router>
     </div>
