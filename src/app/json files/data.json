@@ -19,19 +19,19 @@
   
     {
         "ID": "3",
-        "Name": "Mary Stuart Stevens Room", 
-        "Floor":1,
-        "Location": "first floor",
-        "Image": "/images/Library/MSS Room 2.jpg",
-        "Description": "The Mary Stuart Stevens Room celebrates the history of the founding family of Stevens Institute of Technology.  The Stevens family has a long history of invention and innovation related to steam boats, railroads, and ferry boats, with roots in America dating back to the late 1600s.\n\n\n"
-    },
-    {
-        "ID": "4",
-        "Name": "Piano", 
+        "Name": "Piano",  
         "Floor":1,
         "Location": "first floor",
         "Image": "/images/Library/Piano and Mobile Great Hall.jpg",
         "Description": "The Petrof concert grand piano is 9 ft. in length, features several extra keys, and was donated to the Library and dedicated in 1984.  The Library sometimes holds concerts featuring Stevens faculty, students, and special guest artists.\n\n\n\n" 
+    },
+    {
+        "ID": "4",
+        "Name": "Mary Stuart Stevens Room",
+        "Floor":1,
+        "Location": "first floor",
+        "Image": "/images/Library/MSS Room 2.jpg",
+        "Description": "The Mary Stuart Stevens Room celebrates the history of the founding family of Stevens Institute of Technology.  The Stevens family has a long history of invention and innovation related to steam boats, railroads, and ferry boats, with roots in America dating back to the late 1600s.\n\n\n"
     },
     {
         "ID": "5",

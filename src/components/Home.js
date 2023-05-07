@@ -9,7 +9,7 @@ function Home() {
     <Container>
       <ImgSlider/>
       <Viewers/>
-      <History/>
+      {/* <History/> */}
     </Container>
   )
 }
@@ -23,7 +23,7 @@ const Container = styled.main`
     position: relative;
     overflow-x: hidden;
     &:before{
-        // background: url('/images/home-background.png')center center / cover 
+        background: url('images/home-background.png')center center / cover 
         background:#f5f5f5
         no-repeat fixed;
         content: "";

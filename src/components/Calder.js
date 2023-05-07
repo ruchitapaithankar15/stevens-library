@@ -7,7 +7,24 @@ function Calder() {
   const{id} = useParams();
   return (
     <Container>
-      <CTA>
+
+
+<Background>
+        <img src={Blog[id].Image}/>
+      </Background>
+      <ImageTitle>
+        {/* <img src='https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/D7AEE1F05D10FC37C873176AAA26F777FC1B71E7A6563F36C6B1B497CAB1CEC2/scale?width=1440&aspectRatio=1.78'/> */}
+        <h1>{ Blog[id].Name }</h1>
+      </ImageTitle>
+      <SubTitle>
+        {Blog[id].Location}
+      </SubTitle>
+      <Description>
+      {Blog[id].Description}
+      </Description>
+
+
+      {/* <CTA>
         <Title>{ Blog[id].Name }</Title>
         <Container2>
         <CTAPictureOne src={Blog[id].Image}/>
@@ -15,7 +32,7 @@ function Calder() {
         {Blog[id].Description}
         </Description>
         </Container2>
-      </CTA>
+      </CTA> */}
     </Container>
   )
 }
@@ -24,77 +41,56 @@ export default Calder
 
 
 const Container = styled.div`
-  position: relative;
-  height: calc(150vh - 90px);
-  align-items: top;
-  display: flex;
-  justify-content: center;
-&:before{
-  background-position: top
-  background-size: cover;
-  background-repeat: no-repeat;
-  position: absolute;
-  content: "";
-  top:0;
-  bottom: 0;
-  left: 0;
-  right:0;
-  opacity: 0.7;
-  background-image: url("/images/history-bg.png");
-  opacity: 0.2;
-  z-index: -1;
-}
-`
-
-
-const CTA = styled.div`
-max-width: 1500px;
-padding: 50px 40px;
-width: 70%;
-display: flex;
-flex-direction: column;
-margin-top: 60px;
-align-items: center;
+    min-height: calc(100vh - 90px);
+    padding: 0 calc(3.5vw + 5px);
+    position: relative;
 
 `
 
 
-const CTAPictureOne = styled.img`
-border-style: solid;
-border-color: white;
-  width: 50%;
-  border-radius: 4px;
-  border-width: thick;
-  cursor: pointer;
-  transition: all 250ms;
-  &:hover{
-    border-color: #a32638;
-  }
+const Background = styled.div`
+    position:fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    opacity: 0.8;
+
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+`
+const ImageTitle = styled.div`
+    height: 30vh;
+    min-height:170px;
+    width: 35vh;
+    min-width: 200px;
+    margin-top: 55px;
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
 
 `
 
 
-const Description = styled.p`
-  font-size: 20px;
-  letter-spacing: 1.5px;
-  text-align: center;
-  color: black;
-  line-height: 1.5;
-  align-items: left;
-  padding-left; 100px;
+const SubTitle = styled.div`
+    color: rgb(249, 249, 249);
+    font-size: 15px;
+    min-height: 20px;
+    margin-top:26px;
 `
 
+const Description = styled.div`
+    line-height: 1.4;
+    font-size: 20px;
+    margin-top: 16px;
+    color: rgb(249, 249, 249);
+    max-width: 700px;
 
-const Title = styled.h1`
-font-size: 30px;
-letter-spacing: 1.5px;
-text-align: center;
-color: black;
-line-height: 1.5;
-
-`
-
-
-const Container2 =styled.div`
-  display: flex;
 `

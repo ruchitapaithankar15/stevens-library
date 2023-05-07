@@ -6,20 +6,14 @@ function Viewers() {
   return (
    <Container>
        <Wrap>
-           <img src="/images/floor-1.png"/>
+           <img src="/images/floor-1.png" />
        </Wrap>
        <Wrap>
-           <img src="/images/floor2.png"/>
+           <img src="/images/floor-2.png"/>
        </Wrap>
        <Wrap>
-           <img src="/images/floor3.png"/>
+           <img src="/images/floor-3.png"/>
        </Wrap>
-       {/* <Wrap>
-           <img src="/images/viewers-starwars.png"/>
-       </Wrap>
-       <Wrap>
-           <img src="/images/viewers-national.png"/>
-       </Wrap> */}
    </Container>
   )
 }
@@ -27,11 +21,12 @@ function Viewers() {
 export default Viewers
 
 const Container = styled.div`
+    align-items: center;
     // padding-left: 100px;
     margin-top: 30px;
     display: grid;
     // padding: 30px 0px 26px;
-    padding-left: 75px; 
+    padding-left: 90px; 
     padding-top: 20px;
     grid-gap:25px;
     grid-template-columns: repeat(3, minmax(0, 1fr)); //change here if you need 3 boxes
@@ -39,7 +34,7 @@ const Container = styled.div`
 `
 
 const Wrap = styled.div`
-    width: 70%;
+    width: 60%;
     border-radius: 10px;
     cursor: pointer;
     border: 3px solid rgba(169,45,61,0.1);
