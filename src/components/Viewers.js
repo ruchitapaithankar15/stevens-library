@@ -1,26 +1,34 @@
 import React from 'react'
 import styled from 'styled-components'
-
+import { Link } from 'react-router-dom'
 
 function Viewers() {
   return (
    <Container>
-        
+        <Link to='/floorview' style={{ textDecoration: 'none' }}>
        <Wrap>
            <img src="/images/navigate.png" />
        </Wrap>
+       </Link>
+       <Link to='/perfloor' style={{ textDecoration: 'none' }}>
        <Wrap>
            <img src="/images/look-into.png"/>
        </Wrap>
+       </Link>
        <Wrap>
            <img src="/images/floorDis.png"/>
        </Wrap>
+
+       <a href='https://www.facebook.com/scwLibrary/' rel="noopener">
        <Wrap>
            <img src="/images/find-us.png"/>
        </Wrap>
+       </a>
+       <a href='https://www.stevens.edu/academics/library/library-services'>
        <Wrap>
            <img src="/images/services.png"/>
        </Wrap>
+       </a>
    </Container>
   )
 }
@@ -35,7 +43,7 @@ const Container = styled.div`
     // padding: 30px 0px 26px;
     padding-left: 90px; 
     padding-top: 20px;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
     grid-gap:25px;
     grid-template-columns: repeat(5, minmax(0, 1fr)); //change here if you need 3 boxes
 
