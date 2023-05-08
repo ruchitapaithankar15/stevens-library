@@ -41,7 +41,7 @@ const Container = styled.div`
 
 
 const Title = styled.h1`
-color: black;
+background:#a32638cc
 
 `
 
@@ -50,13 +50,11 @@ font-size: 20px;
 letter-spacing: 1.5px;
 text-align: center;
 line-height: 1.5;
-color: black;
+background:#a32638cc
 `
 
 const Video = styled.iframe`
-
-  width:200;
-  height:150;
+  padding: 100px;
 `
 
 const Subscript = styled.p`
@@ -64,6 +62,6 @@ const Subscript = styled.p`
     letter-spacing: 1.5px;
     text-align: center;
     line-height: 1.5;
-    color: black;
+    background:#a32638cc;
 
 `

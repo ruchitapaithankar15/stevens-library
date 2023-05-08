@@ -7,8 +7,8 @@ function Home() {
   return (
     <Container>
       <HomeImage/>
-      <h1 style={{position:"absolute", top: "15%", left: "50%", transform: "translate(-50%, -50%)", color: "white", background:"#a32638c"}}>The Library is here for You</h1>
-       <h3 style={{position:"absolute", top: "20%", left: "50%", transform: "translate(-50%, -50%)", color: "white", background:"#a32638c"}}>Welcome to Stevens Library</h3>
+      <h1 style={{position:"absolute", top: "15%", left: "50%", transform: "translate(-50%, -50%)", color: "white", background:"#a32638cc"}}>The Library is here for You</h1>
+       <h3 style={{position:"absolute", top: "20%", left: "50%", transform: "translate(-50%, -50%)", color: "white", background:"#a32638cc"}}>Welcome to Stevens Library</h3>
       <Viewers/>
 
     </Container>
