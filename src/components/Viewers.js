@@ -5,14 +5,21 @@ import styled from 'styled-components'
 function Viewers() {
   return (
    <Container>
+        
        <Wrap>
-           <img src="/images/floor-1.png" />
+           <img src="/images/navigate.png" />
        </Wrap>
        <Wrap>
-           <img src="/images/floor-2.png"/>
+           <img src="/images/look-into.png"/>
        </Wrap>
        <Wrap>
-           <img src="/images/floor-3.png"/>
+           <img src="/images/floorDis.png"/>
+       </Wrap>
+       <Wrap>
+           <img src="/images/find-us.png"/>
+       </Wrap>
+       <Wrap>
+           <img src="/images/services.png"/>
        </Wrap>
    </Container>
   )
@@ -30,12 +37,12 @@ const Container = styled.div`
     padding-top: 20px;
     padding-bottom: 30px;
     grid-gap:25px;
-    grid-template-columns: repeat(3, minmax(0, 1fr)); //change here if you need 3 boxes
+    grid-template-columns: repeat(5, minmax(0, 1fr)); //change here if you need 3 boxes
 
 `
 
 const Wrap = styled.div`
-    width: 60%;
+    width: 80%;
     border-radius: 10px;
     cursor: pointer;
     border: 3px solid rgba(169,45,61,0.1);

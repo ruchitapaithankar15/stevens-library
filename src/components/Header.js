@@ -8,10 +8,6 @@ function Header() {
         <Link to='/' style={{ textDecoration: 'none' }}>
         <Logo src="/images/stevenslogo.jpeg"/>
         </Link>
-        {/* <Container>
-        <h3>Samuel C. </h3>
-        <h3>Williams Library</h3>
-        </Container> */}
         <NavMenu>
             <LogoImg src='/images/SCW.png'/>
             <Link to='/' style={{ textDecoration: 'none' }}>
